@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="ee00d0304bc02080f3ae082635070697abacab2c6106c484e6ab6de340d25763.html">Utest</a></span>
+                > <span class="truncate-60"><a
+                    href="56c6d3c9c360de86c252421e0ba792f34a6be5a092e11ef493be78676cb10bbe.html"> </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-10-2021 12:59</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Utest </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want create an account on uTest
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="a7f264f6f73542351f068fbab753ff90cfc227b7eaee778751288f8c4566008d.png" title=" Given that Emmanuel wants to create an account on uTest" width="1360"/>
+                <img src="a7f264f6f73542351f068fbab753ff90cfc227b7eaee778751288f8c4566008d.png" title=" Emmanuel open up" width="1360"/>
+                <img src="a7f264f6f73542351f068fbab753ff90cfc227b7eaee778751288f8c4566008d.png" title=" Emmanuel opens the U test page" width="1360"/>
+                <img src="a7f264f6f73542351f068fbab753ff90cfc227b7eaee778751288f8c4566008d.png" title=" Emmanuel open up (completed)" width="1360"/>
+                <img src="a7f264f6f73542351f068fbab753ff90cfc227b7eaee778751288f8c4566008d.png" title=" Given that Emmanuel wants to create an account on uTest (completed)" width="1360"/>
+                <img src="043cb29870238621c33c377cc22aeb3a5a7452db2cbf25e40d346649832181bd.png" title=" When he enters Join Today, he opens a form to register on the platform
+| strNombre | strApellido | strCorreo | strClave | strConfirmarClave | strDia | strMes | strAno | strCiudad | strPostal |
+| Emmanuel | Jose | jsmith1@yopmail.com | Pchou2021* | Pchou2021* | 27 | March | 1996 | Bello | 051050 |" width="1360"/>
+                <img src="043cb29870238621c33c377cc22aeb3a5a7452db2cbf25e40d346649832181bd.png" title=" Emmanuel register" width="1360"/>
+                <img src="043cb29870238621c33c377cc22aeb3a5a7452db2cbf25e40d346649832181bd.png" title=" Emmanuel clicks on boton registro" width="1360"/>
+                <img src="06922b7627158a5d268097ddca6e23aaceff813a5126b79f31c58386ead104ef.png" title=" Emmanuel enters 'Emmanuel' into donde escribimos el nombre" width="1360"/>
+                <img src="7e783d9f8b634818582a11a33e7d27adc348129ad894143bfb674f320f04324b.png" title=" Emmanuel enters 'Jose' into donde escribimos el apellido" width="1360"/>
+                <img src="4da4fcf29e28ac9f61da7ea245ad2364969d570e0aa3c16464e109acb5bab141.png" title=" Emmanuel enters 'jsmith1@yopmail.com' into donde escribimos el correo" width="1360"/>
+                <img src="7447473de66df340b52660654c4d5ee9f58f8d34d5b2f8bb368671488cf616e9.png" title=" Emmanuel select March on donde seleccionamos el mes" width="1360"/>
+                <img src="9974fe97d1f6a24e827c308a508be24a3c92249e987e8596b76fdf813a63db18.png" title=" Emmanuel select 27 on donde seleccionamos el dia" width="1360"/>
+                <img src="4fea5013f7b494bd16fae4aa6ace6aafcb67042c78693369c2cb661a968b5d1e.png" title=" Emmanuel select 1996 on donde seleccionamos el a&Atilde;&plusmn;o" width="1360"/>
+                <img src="e717ddecc90f288e8ad743f62b4dcf450ad2f99e6a80555044ebeabd56dbc844.png" title=" Emmanuel clicks on boton siguiente y completado" width="1360"/>
+                <img src="ab5c2ba1c728dfa5aed4781cb7c8fa765e6d8f5b7e1a26aee19f2dd9639098ad.png" title=" Emmanuel enters 'Bello' into donde escribimos la ciudad" width="1360"/>
+                <img src="7a4c89d3c3920c5a75b20c4b48a508c0a45b4d32e27fcc9b2f448d5ec6dfeb16.png" title=" Emmanuel types 'ARROW_DOWN' in donde escribimos la ciudad" width="1360"/>
+                <img src="5be3ab2fc524b1ce5cb82f41d4f1de458b1f79030d1d0c386d6c4a0f08997a17.png" title=" Emmanuel types 'ENTER' in donde escribimos la ciudad" width="1360"/>
+                <img src="0cbf4f8897d352b3f2b88ecfda4eba1b3a7b4d7ef656679b740367ae40fa2c11.png" title=" Emmanuel enters '051050' into donde escribimos codico postal" width="1360"/>
+                <img src="d61fb6d4d4a14c19335f5a9b4c1c6f2aeaceca8080781fe96ddafd86f91c5b75.png" title=" Emmanuel clicks on boton siguiente y completado" width="1360"/>
+                <img src="55c17c12419d2232b93989659ac919df6df111bc7594a663f4ac114fa3d113f4.png" title=" Emmanuel clicks on boton siguiente y completado" width="1360"/>
+                <img src="1d9f7d96caffd16a204b2ce556f29cffc6d2f6db4243ca6cab4e48b73b71d4bf.png" title=" Emmanuel enters 'Pchou2021*' into ingresar clave" width="1360"/>
+                <img src="3761e2b043aab6d45617fa29503ecc35cccde01b82c0af162b5d6ca217cfb99c.png" title=" Emmanuel enters 'Pchou2021*' into confirmar clave" width="1360"/>
+                <img src="f394523db453395b6469135eb42acc6d49d4bc45b98715061a5cacb9fd2c3f7b.png" title=" Emmanuel clicks on Acepta los terminos" width="1360"/>
+                <img src="90b3f4c69423a36c2698d4650c10334ead11669a7ecf8ec88def98f36cf12e4f.png" title=" Emmanuel clicks on Acepta las politicas" width="1360"/>
+                <img src="298881ea7919b708d966a76f358e404100e3619a2f51a89a16739eb03af0448a.png" title=" Emmanuel clicks on boton siguiente y completado" width="1360"/>
+                <img src="298881ea7919b708d966a76f358e404100e3619a2f51a89a16739eb03af0448a.png" title=" Emmanuel register (completed)" width="1360"/>
+                <img src="243ffecced04f5987e7af9f9f688771c1116c0c9783793f8aeb6ce4faf8464a8.png" title=" When he enters Join Today, he opens a form to register on the platform
+| strNombre | strApellido | strCorreo | strClave | strConfirmarClave | strDia | strMes | strAno | strCiudad | strPostal |
+| Emmanuel | Jose | jsmith1@yopmail.com | Pchou2021* | Pchou2021* | 27 | March | 1996 | Bello | 051050 | (completed)" width="1360"/>
+                <img src="a1f8b1659b5a6330c02194d06a4a9320ef5dc6d833bee0884a3f2e621b118e78.png" title=" Then fill in the form: <span class='success-color'>SUCCESS</span>" width="1360"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
