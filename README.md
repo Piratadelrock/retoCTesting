@@ -1,2 +1,2 @@
 # retoChoucair
-Les agradezco esta oportunidad
+primer reto de C-T en java selenium screenplay, uso de xml ...
